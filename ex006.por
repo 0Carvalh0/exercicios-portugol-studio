@@ -8,7 +8,7 @@ programa
 		leia(n1)
 		ant = n1 - 1
 		suc = n1 + 1
-		escreva("O antecessor de " + n1 + " é " + ant)
+		escreva("O antecessor de " + n1 + " é " + ant + "\n")
 		escreva("O sucessor de " + n1 + " é " + suc)
 	}
 }
@@ -17,7 +17,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 237; 
+ * @POSICAO-CURSOR = 183; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

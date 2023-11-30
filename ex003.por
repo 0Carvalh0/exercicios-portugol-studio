@@ -9,8 +9,8 @@ programa
 		real sal
 		escreva("Qual é o seu salário? ")
 		leia(sal)
-		escreva("Nome do Funcionário: " + nome)
-		escreva("Salário: R$" + sal)
+		escreva("Nome do Funcionário: " + nome + "\n")
+		escreva("Salário: R$" + sal + "\n")
 		escreva("O funcionário " + nome + " tem um salário de R$" + sal + " em Novembro")
 	}
 }
@@ -19,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 321; 
+ * @POSICAO-CURSOR = 237; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
