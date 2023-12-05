@@ -14,7 +14,8 @@ programa
 			}
 			cont++
 		}
-		escreva("Você digitou " + pares + " números pares e " + impares + " números ímpares!")
+		escreva("==================RESULTADO====================\n")
+		escreva("Você digitou " + pares + " números pares.\nVocê digitou " + impares + " números ímpares.")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -22,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 337; 
+ * @POSICAO-CURSOR = 29; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
