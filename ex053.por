@@ -10,6 +10,7 @@ programa
 			leia(idade)
 			escreva("Qual é o sexo? (HOMEM ou MULHER) ")
 			leia(sexo)
+			escreva("-----------------------------------------\n")
 			sexo = txt.caixa_baixa(sexo)
 			se (sexo == "homem" ou sexo == "mulher") {
 				se (sexo == "homem") {
@@ -40,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 377; 
+ * @POSICAO-CURSOR = 375; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {cont, 6, 17, 4};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
