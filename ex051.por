@@ -3,17 +3,20 @@ programa
 	
 	funcao inicio()
 	{
-		real preco, maior = 0, menor = 99999999, cont = 1
+		real preco, maior = 0, menor = 0, cont = 1
 		enquanto (cont <= 8) {
-			escreva("\nQual o preço do produto? ")
+			escreva("Qual o preço do produto? ")
 			leia(preco)
-			se (preco > maior) {
+			se (cont == 1) {
 				maior = preco
-				escreva("O MAIOR valor agora é: " + maior)
-			}
-			se (preco < menor) {
 				menor = preco
-				escreva("O MENOR valor agora é: " + menor)
+			} senao {
+				se (preco > maior) {
+					maior = preco
+				}
+				se (preco < menor) {
+					menor = preco
+				}
 			}
 			cont++
 		}
@@ -26,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 79; 
+ * @POSICAO-CURSOR = 281; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
