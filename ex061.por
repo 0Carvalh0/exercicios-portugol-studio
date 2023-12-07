@@ -3,9 +3,11 @@ programa
 	
 	funcao inicio()
 	{
-		para (inteiro c = 0; c <= 30; c+=3) {
+		inteiro c = 0
+		faca {
 			escreva(c + " ")
-		}
+			c += 3
+		} enquanto (c <= 30)
 		escreva("Acabou!")
 	}
 }
@@ -14,7 +16,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 129; 
+ * @POSICAO-CURSOR = 136; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
