@@ -21,8 +21,10 @@ programa
 		escreva("               LISTA            \n")
 		escreva("------------------------------------\n")
 		para (inteiro i = 0; i < 9; i++) {
-			escreva("NOME: " + nomes[idadespos[i]] + "\t\t")
-			escreva("IDADE: " + idades[idadespos[i]] + "\n")
+			se (idades[i] < 18) {
+				escreva("NOME: " + nomes[idadespos[i]] + "\t\t")
+				escreva("IDADE: " + idades[idadespos[i]] + "\n")
+			}
 		}
 	}
 }
@@ -31,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 666; 
+ * @POSICAO-CURSOR = 692; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
