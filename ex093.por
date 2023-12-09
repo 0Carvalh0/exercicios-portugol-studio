@@ -15,10 +15,10 @@ programa
 	funcao vazio Contador(inteiro inicio, inteiro final, inteiro incremento)
 	{
 		enquanto (inicio <= final) {
-			escreva(inicio + " ")
+			escreva(inicio + " >> ")
 			inicio += incremento
 		}
-		escreva("Acabou!")
+		escreva("FIM!")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -26,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 421; 
+ * @POSICAO-CURSOR = 329; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
