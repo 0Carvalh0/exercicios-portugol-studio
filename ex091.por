@@ -12,12 +12,12 @@ programa
 	}
 	funcao vazio Maior(inteiro n1, inteiro n2)
 	{
-		se (n1 >= n2) {
+		se (n1 == n2) {
+			escreva("Os dois números são iguais!")
+		} senao se (n1 >= n2) {
 			escreva("O MAIOR número é " + n1)
 		} senao se (n2 >= n1) {
 			escreva("O MAIOR número é " + n2)
-		} senao se (n1 == n2) {
-			escreva("Os dois números são iguais!")
 		}
 	}
 }
@@ -26,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 429; 
+ * @POSICAO-CURSOR = 437; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {numero, 4, 9, 6};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
